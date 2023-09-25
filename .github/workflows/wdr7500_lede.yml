@@ -9,7 +9,7 @@
 #
 #
 
-name: Lede-大雕
+name: wdr7500-Lede-大雕
 on:
   workflow_dispatch:
     inputs:
@@ -28,7 +28,7 @@ on:
         type: choice
         options:
           - 'wdr7500'
-        CPU_SELECTION:
+      CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
         default: '默认'
